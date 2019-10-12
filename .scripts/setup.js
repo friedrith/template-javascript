@@ -4,10 +4,7 @@ const { name, description, author } = require('../package')
 
 /* eslint-disable no-console */
 
-const filenames = [
-  path.resolve(__dirname, '../CONTRIBUTING.md'),
-  path.resolve(__dirname, '../gatsby-config.js'),
-]
+const filenames = [path.resolve(__dirname, '../CONTRIBUTING.md')]
 
 const replaceByRealName = filename =>
   fs
